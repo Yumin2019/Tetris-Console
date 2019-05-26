@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{268dcc50-97b8-4482-b83f-d26121d473d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Timer">
+      <UniqueIdentifier>{35b1864f-aabd-421a-8efd-5cf2f4db9e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Input">
+      <UniqueIdentifier>{253d880f-6ceb-4615-8a05-8a6739d21764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Shape">
+      <UniqueIdentifier>{059215d4-6b43-494b-9da2-5fdf3c18a48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Stage">
+      <UniqueIdentifier>{48ed255b-9b1d-4859-9a04-8f6ed834bada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shape">
+      <UniqueIdentifier>{53df544e-1cde-43a3-99c1-d9aa51457880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shape\CRectangle">
+      <UniqueIdentifier>{01b36777-4ffe-4bcf-84b7-3017a64b4c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shape\CShapeL">
+      <UniqueIdentifier>{bff72d84-3be0-46fa-a2f2-7804adeee8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shape\CShapeI">
+      <UniqueIdentifier>{790face0-0f1b-4b43-8974-54f7cf40d2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shape\ShapeZ">
+      <UniqueIdentifier>{9401ae69-f916-494d-b72d-b19db180ebe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shape\ShapeT">
+      <UniqueIdentifier>{ffc3a3a7-c454-4aab-9ae4-e93752ac9abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shape\ShapeS">
+      <UniqueIdentifier>{85479e12-0f14-47c6-9c2c-e5f6d7b1c63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shape\ShapeJ">
+      <UniqueIdentifier>{c403a194-aa58-4596-b30a-1f5488c73fb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defines.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CCore.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CTimer.h">
+      <Filter>소스 파일\Core\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CInput.h">
+      <Filter>소스 파일\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CStageManager.h">
+      <Filter>소스 파일\Core\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CShape.h">
+      <Filter>소스 파일\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CRectangle.h">
+      <Filter>소스 파일\Shape\CRectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CShapeManager.h">
+      <Filter>소스 파일\Core\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CShapeL.h">
+      <Filter>소스 파일\Shape\CShapeL</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CShapeI.h">
+      <Filter>소스 파일\Shape\CShapeI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CShapeZ.h">
+      <Filter>소스 파일\Shape\ShapeZ</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CShapeT.h">
+      <Filter>소스 파일\Shape\ShapeT</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CShapeS.h">
+      <Filter>소스 파일\Shape\ShapeS</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CShapeJ.h">
+      <Filter>소스 파일\Shape\ShapeJ</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\CCore.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\CTimer.cpp">
+      <Filter>소스 파일\Core\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\CInput.cpp">
+      <Filter>소스 파일\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\CStageManager.cpp">
+      <Filter>소스 파일\Core\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CShape.cpp">
+      <Filter>소스 파일\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CRectangle.cpp">
+      <Filter>소스 파일\Shape\CRectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\CShapeManager.cpp">
+      <Filter>소스 파일\Core\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CShapeL.cpp">
+      <Filter>소스 파일\Shape\CShapeL</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CShapeI.cpp">
+      <Filter>소스 파일\Shape\CShapeI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CShapeZ.cpp">
+      <Filter>소스 파일\Shape\ShapeZ</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CShapeT.cpp">
+      <Filter>소스 파일\Shape\ShapeT</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CShapeS.cpp">
+      <Filter>소스 파일\Shape\ShapeS</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CShapeJ.cpp">
+      <Filter>소스 파일\Shape\ShapeJ</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
